@@ -1,24 +1,18 @@
+var timeDisplay = $("#currentDay");
+
+var currentTime = moment().format("dddd, MMMM Do");
+
+var nine = $("#9am");
+
+$('#9amtext').val(localStorage.nine);
 
 
- icon.addClass("fas fa-save").on("click", function()  {
+timeDisplay.append(currentTime);
 
-
- })
-
- var awsBtn = $("<button>");
- $(".savebtn").append(awsBtn);
- var icon = $("<i>");
-
-
-
-
-
-
- console.log(moment().format("dddd, MMMM Do"));
-
-
-
-
+nine.click(function() {
+   var text = $('textarea').val();
+   localStorage.nine = text;
+ });
 
 
 console.log(moment().hour())
