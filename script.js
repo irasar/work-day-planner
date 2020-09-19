@@ -2,6 +2,9 @@ var timeDisplay = $("#currentDay");
 
 var currentTime = moment().format("dddd, MMMM Do");
 
+
+timeDisplay.append(currentTime);
+
 var nine = $("#9am");
 var ten = $("#10am");
 var eleven = $("#11am");
@@ -11,6 +14,7 @@ var two = $("#2pm");
 var three = $("#3pm");
 var four = $("#4pm");
 var five = $("#5pm");
+
 
 
 $("#9amtext").val(localStorage.nine);
@@ -33,45 +37,56 @@ ten.click(function() {
  $("#11amtext").val(localStorage.eleven);
 
  eleven.click(function() {
-   var text = $("#9amtext").val();
+   var text = $("#11amtext").val();
    localStorage.eleven = text;
 });
 
-$("#12pmtext").val(localStorage.nine);
+$("#12pmtext").val(localStorage.twelve);
 
-nine.click(function() {
+twelve.click(function() {
    var text = $("#12pmtext").val();
    localStorage.twelve = text;
 });
 
-$("#9amtext").val(localStorage.nine);
+$("#1pmtext").val(localStorage.one);
 
 
-nine.click(function() {
-   var text = $("#9amtext").val();
-   localStorage.nine = text;
+one.click(function() {
+   var text = $("#1pmtext").val();
+   localStorage.one = text;
 });
 
-$("#9amtext").val(localStorage.nine);
+$("#2pmtext").val(localStorage.two);
 
-nine.click(function() {
-   var text = $("#9amtext").val();
-   localStorage.nine = text;
+two.click(function() {
+   var text = $("#2pmtext").val();
+   localStorage.two = text;
 });
 
-$("#9amtext").val(localStorage.nine);
+$("#3pmtext").val(localStorage.three);
 
-nine.click(function() {
-   var text = $("#9amtext").val();
-   localStorage.nine = text;
+three.click(function() {
+   var text = $("#3pmtext").val();
+   localStorage.three = text;
 });
 
-$("#9amtext").val(localStorage.nine);
+$("#4pmtext").val(localStorage.four);
 
-nine.click(function() {
-   var text = $("#9amtext").val();
-   localStorage.nine = text;
+four.click(function() {
+   var text = $("#4pmtext").val();
+   localStorage.four = text;
 });
+
+
+
+$("#5pmtext").val(localStorage.five);
+
+five.click(function() {
+   var text = $("#5pmtext").val();
+   localStorage.five = text;
+});
+
+
 
 
 
@@ -79,4 +94,3 @@ console.log(moment().hour())
 
 
 
-timeDisplay.append(currentTime);
