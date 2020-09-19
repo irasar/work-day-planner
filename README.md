@@ -8,13 +8,13 @@ This application is a planner that helps originize your nine to five workday. Th
 
 ## Installation
 
-There are no installations required. With the github link it will simply display in the browser.
+There are no installations required. With the link, it will simply display in the browser.
 
  https://irasar.github.io/work-day-planner/
 
 
 ## Usage 
 
-Provide instructions and examples for use. Include screenshots as needed. 
+
 
 ![alt text](assets/planner.png)
