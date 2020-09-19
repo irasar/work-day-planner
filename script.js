@@ -90,7 +90,7 @@ five.click(function() {
 
 var curentHour = parseInt(moment().format("H"));
 
-$(".description").each(function() {
+$(".textBox").each(function() {
    var timeBlock = parseInt($(this).attr("data-time"));
    if(timeBlock < curentHour) {
       $(this).addClass("past");
@@ -99,13 +99,12 @@ $(".description").each(function() {
       $(this).addClass("present");
    }
    else {
-      $(this).addclass("future");
+      $(this).addClass("future");
    }
-}));
-}
+});
 
 
-console.log(moment().hour())
+
 
 
 
