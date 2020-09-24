@@ -17,4 +17,4 @@ There are no installations required. With the link, it will simply display in th
 
 
 
-![alt text](assets/planner.png)
+![alt text](assets/plan.png)
