@@ -33,10 +33,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 HTML5<br>
 CSS3<br>
-Font Awesome
-JavaScript
-jQuery
-Moment.js
+Font Awesome<br>
+JavaScript<br>
+jQuery<br>
+Moment.js<br>
 
 
 
