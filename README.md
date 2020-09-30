@@ -40,5 +40,12 @@ HTML5<br>
 CSS3<br>
 
 
+## Credits
+
+Sarah Iraurgui <br>
+-https://github.com/irasar
+
+
+
 
 
